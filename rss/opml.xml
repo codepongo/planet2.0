@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<opml version="1.1">
+	<head>
+		<title>CodePongo RSS Reader</title>
+		<dateModified>Mon, 26 Aug 2013 16:16:19 +0000</dateModified>
+		<ownerName>codepongo</ownerName>
+		<ownerEmail>zhuhuotui@gmail.com</ownerEmail>
+	</head>
+	
+	<body>
+		<outline type="rss" text="C++博客-首页原创净化区" xmlUrl="http://www.cppblog.com/rss.aspx" title="C++博客-首页原创精华区" />
+		<outline type="rss" text="cnBeta.COM" xmlUrl="http://cnbeta.feedsportal.com/c/34306/f/624776/index.rss" title="cnBeta.COM业界资讯" />
+		<outline type="rss" text="solidot.org" xmlUrl="http://www.solidot.org/index.rss" title="Solidot" />
+	</body>
+</opml>
