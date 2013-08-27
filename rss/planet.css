@@ -1,5 +1,6 @@
 body {
-	width: 600px;
+	width: 1000px;
+	font-size:32px;
 }
 
 }
@@ -9,7 +10,11 @@ img.face {
 }
 
 .entrygroup {
-	border-bottom: 1px solid #000000
+	border-bottom: 1px solid #000000;
+}
+
+.content {
+	overflow:auto;
 }
 
 .entry .date {
