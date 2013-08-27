@@ -48,14 +48,13 @@
 <TMPL_IF title>
 <h4<TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_VAR title></a></h4>
 </TMPL_IF>
-<TMPL_IF channel_name>
-<a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name></a>
-</TMPL_IF>
 <TMPL_IF channel_face>
 <img class="face" src="images/<TMPL_VAR channel_face ESCAPE="HTML">" width="<TMPL_VAR channel_facewidth ESCAPE="HTML">" height="<TMPL_VAR channel_faceheight ESCAPE="HTML">" alt="">
 </TMPL_IF>
+<TMPL_IF channel_name>
+<a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name></a>
+</TMPL_IF>
 
-<div class="entry">
 <div class="content"<TMPL_IF content_language> lang="<TMPL_VAR content_language>"</TMPL_IF>>
 <TMPL_VAR content>
 </div>
@@ -69,7 +68,6 @@
 <p class="date">
 <a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_IF author>by <TMPL_VAR author> at </TMPL_IF><TMPL_VAR date><TMPL_IF category> under <TMPL_VAR category></TMPL_IF></a>
 </p>
-</div>
 </div>
 
 <TMPL_IF __LAST__>

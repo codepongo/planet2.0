@@ -1,5 +1,4 @@
 *.tmplc
-config.ini
 .DS_Store
 *.swp
 cache

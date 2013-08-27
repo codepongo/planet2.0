@@ -338,7 +338,8 @@ class TemplateManager:
                 return precompiled
         finally:
             if file:
-                self.lock_file(file, LOCK_UN)
+                if sys.platform != 'win32':
+                    self.lock_file(file, LOCK_UN)
                 file.close()
             if remove_bad and os.path.isfile(filename):
                 # X: We may lose the original exception here, raising OSError.
