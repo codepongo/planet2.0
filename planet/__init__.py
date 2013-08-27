@@ -262,8 +262,12 @@ class Planet:
             except htmltmpl.TemplateError:
                 template = manager.prepare(os.path.basename(template_file))
             # Read the configuration
-            output_dir = self.tmpl_config_get(template_file,
-                                         "output_dir", OUTPUT_DIR)
+            try:
+                import private
+                output_dir = private.output_dir
+            except:
+                output_dir = self.tmpl_config_get(template_file,
+                                             "output_dir", OUTPUT_DIR)
             date_format = self.tmpl_config_get(template_file,
                                           "date_format", DATE_FORMAT, raw=1)
             encoding = self.tmpl_config_get(template_file, "encoding", ENCODING)
