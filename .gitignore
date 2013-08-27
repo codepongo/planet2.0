@@ -1,4 +1,5 @@
 *.tmplc
 .DS_Store
 *.swp
+*.pyc
 cache
