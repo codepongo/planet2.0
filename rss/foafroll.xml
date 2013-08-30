@@ -9,14 +9,14 @@
 <foaf:Group>
 	<foaf:name>CodePongo RSS Reader</foaf:name>
 	<foaf:homepage>rss</foaf:homepage>
-	<rdfs:seeAlso rdf:resource="rss\foafroll.xml" />
+	<rdfs:seeAlso rdf:resource="rss/foafroll.xml" />
 
 	<foaf:member>
 		<foaf:Agent>
 			<foaf:name>36氪｜关注互联网创业</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.36kr.com">
+					<dc:title>36氪</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://feed.36kr.com/c/33346/f/566026/index.rss" />
 					</rdfs:seeAlso>
@@ -28,8 +28,8 @@
 		<foaf:Agent>
 			<foaf:name>BlueCode的自留地</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.bluecode.cn/blog">
+					<dc:title>BlueCode的自留地</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.bluecode.cn/blog/blogrss2.asp" />
 					</rdfs:seeAlso>
@@ -41,10 +41,23 @@
 		<foaf:Agent>
 			<foaf:name>C++博客-首页原创净化区</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.cppblog.com/">
+					<dc:title>C++博客-首页原创精华区</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.cppblog.com/rss.aspx" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>CSDN博客推荐文章</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://blog.csdn.net">
+					<dc:title>CSDN博客推荐文章</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://blog.csdn.net/rss.html?type=Home&amp;channel=" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -93,8 +106,8 @@
 		<foaf:Agent>
 			<foaf:name>IT牛人博客聚合网站</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.udpwork.com/">
+					<dc:title>IT牛人博客聚合网站</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.udpwork.com/feed" />
 					</rdfs:seeAlso>
@@ -132,10 +145,10 @@
 		<foaf:Agent>
 			<foaf:name>Startup News</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://news.dbanotes.net/">
+					<dc:title>Startup News</dc:title>
 					<rdfs:seeAlso>
-						<rss:channel rdf:about="http://www.dbanotes.net/rss" />
+						<rss:channel rdf:about="http://news.dbanotes.net/rss" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -145,8 +158,8 @@
 		<foaf:Agent>
 			<foaf:name>UCD大社区</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://ucdchina.com/rss/all">
+					<dc:title>所有文章 - UCD大社区</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://ucdchina.com/rss/all" />
 					</rdfs:seeAlso>
@@ -158,23 +171,10 @@
 		<foaf:Agent>
 			<foaf:name>[C++游戏编程］梦想的集散地－毛星云（浅墨）的专栏</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://blog.csdn.net/zhmxy555">
+					<dc:title>【C++游戏编程】游戏开发梦想的集散地—毛星云（浅墨）的专栏</dc:title>
 					<rdfs:seeAlso>
-						<rss:channel rdf:about="http://www.csdn.net/zhmxy555/rss/list" />
-					</rdfs:seeAlso>
-				</foaf:Document>
-			</foaf:weblog>
-		</foaf:Agent>
-	</foaf:member>
-	<foaf:member>
-		<foaf:Agent>
-			<foaf:name>[C++游戏编程］梦想的集散地－毛星云（浅墨）的专栏</foaf:name>
-			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
-					<rdfs:seeAlso>
-						<rss:channel rdf:about="http://blog.sina.com.cn/rss/1712416867.xml" />
+						<rss:channel rdf:about="http://blog.csdn.net/poem_qianmo/rss/list" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -249,8 +249,8 @@
 		<foaf:Agent>
 			<foaf:name>不许联想</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.wangxiaofeng.net">
+					<dc:title>不许联想</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.wangxiaofeng.net/?feed=rss2" />
 					</rdfs:seeAlso>
@@ -262,8 +262,8 @@
 		<foaf:Agent>
 			<foaf:name>加菲猫的享乐窝</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://blog.sina.com.cn/jiafeimao">
+					<dc:title>加肥猫的享乐窝</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://blog.sina.com.cn/rss/1496903590.xml" />
 					</rdfs:seeAlso>
@@ -289,7 +289,7 @@
 			<foaf:name>博客园_7c00</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+					<dc:title>博客园_7c00</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.cnblogs.com/7c00/rss" />
 					</rdfs:seeAlso>
@@ -302,7 +302,7 @@
 			<foaf:name>博客园_小五义</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+					<dc:title>博客园_小五义</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.cnblogs.com/xiaowuyi/rss" />
 					</rdfs:seeAlso>
@@ -314,8 +314,8 @@
 		<foaf:Agent>
 			<foaf:name>博客园_李新杰的博客园</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.cnblogs.com/lixinjie/">
+					<dc:title>博客园_李新杰的博客园</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.cnblogs.com/lixinjie/rss" />
 					</rdfs:seeAlso>
@@ -328,7 +328,7 @@
 			<foaf:name>博客园_虫师</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+					<dc:title>博客园_虫师</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.cnblogs.com/fnng/rss" />
 					</rdfs:seeAlso>
@@ -341,7 +341,7 @@
 			<foaf:name>博客园_首页</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+					<dc:title>博客园_首页</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://feed.cnblogs.com/blog/sitehome/rss" />
 					</rdfs:seeAlso>
@@ -353,8 +353,8 @@
 		<foaf:Agent>
 			<foaf:name>外刊IT评论</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.aqee.net">
+					<dc:title>外刊IT评论</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://feed.feedsky.com/aqee-net" />
 					</rdfs:seeAlso>
@@ -364,10 +364,23 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>安静的疯子_新浪博客</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://blog.sina.com.cn/ljchen0429">
+					<dc:title>所谓伊人 在水一方</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://blog.sina.com.cn/rss/1712416867.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>柴静</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://blog.sina.com.cn/chjguancha">
+					<dc:title>柴静</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://blog.sina.com.cn/rss/1219548027.xml" />
 					</rdfs:seeAlso>
@@ -392,8 +405,8 @@
 		<foaf:Agent>
 			<foaf:name>爱范儿＊Beats of Bits</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.ifanr.com?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=">
+					<dc:title>爱范儿 · Beats of Bits</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.ifanr.com/feed" />
 					</rdfs:seeAlso>
@@ -431,8 +444,8 @@
 		<foaf:Agent>
 			<foaf:name>程序员小辉</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.xiaohui.com/">
+					<dc:title>程序员小辉</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.xiaohui.com/rss/" />
 					</rdfs:seeAlso>
@@ -442,10 +455,23 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
+			<foaf:name>网易科技头条</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://tech.163.com/">
+					<dc:title>网易科技头条</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://tech.163.com/special/000944OI/headlines.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
 			<foaf:name>葫芦葫芦</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://blog.sina.com.cn/hawking">
+					<dc:title>葫芦葫芦</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://blog.sina.com.cn/rss/1182415487.xml" />
 					</rdfs:seeAlso>
@@ -457,10 +483,10 @@
 		<foaf:Agent>
 			<foaf:name>邓侃的博客</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://blog.sina.com.cn/kdeng">
+					<dc:title>邓侃的博客</dc:title>
 					<rdfs:seeAlso>
-						<rss:channel rdf:about="http://www.blog.sina.com.cn/rss/1188078483.xml" />
+						<rss:channel rdf:about="http://blog.sina.com.cn/rss/1188078483.xml" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -470,8 +496,8 @@
 		<foaf:Agent>
 			<foaf:name>酷壳 - CoolShell.cn</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://coolshell.cn">
+					<dc:title>酷壳 - CoolShell.cn</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://coolshell.cn/feed" />
 					</rdfs:seeAlso>
