@@ -9,7 +9,7 @@
 <foaf:Group>
 	<foaf:name>CodePongo RSS Reader</foaf:name>
 	<foaf:homepage>rss</foaf:homepage>
-	<rdfs:seeAlso rdf:resource="rss/foafroll.xml" />
+	<rdfs:seeAlso rdf:resource="rss\foafroll.xml" />
 
 	<foaf:member>
 		<foaf:Agent>
@@ -53,22 +53,6 @@
 	<foaf:member>
 		<foaf:Agent>
 			<foaf:name>CSDN博客推荐文章</foaf:name>
-<<<<<<< HEAD
-=======
-			<foaf:weblog>
-				<foaf:Document rdf:about="http://blog.csdn.net">
-					<dc:title>CSDN博客推荐文章</dc:title>
-					<rdfs:seeAlso>
-						<rss:channel rdf:about="http://blog.csdn.net/rss.html?type=Home&amp;channel=" />
-					</rdfs:seeAlso>
-				</foaf:Document>
-			</foaf:weblog>
-		</foaf:Agent>
-	</foaf:member>
-	<foaf:member>
-		<foaf:Agent>
-			<foaf:name>ChinaUnix.net论坛</foaf:name>
->>>>>>> b395c4eb5ac9837d6c0fc238ab3d8b51923c312e
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.csdn.net">
 					<dc:title>CSDN博客推荐文章</dc:title>
@@ -96,8 +80,8 @@
 		<foaf:Agent>
 			<foaf:name>FreeBuF.COM</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.freebuf.com">
+					<dc:title>FreeBuf.COM</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.freebuf.com/feed" />
 					</rdfs:seeAlso>
@@ -113,6 +97,19 @@
 					<dc:title>IT牛人博客聚合网站</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.udpwork.com/feed" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>Just lepture</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://lepture.com/">
+					<dc:title>Just lepture</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://feeds.lepture.com/lepture" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -188,8 +185,7 @@
 			<foaf:name>[C++游戏编程］梦想的集散地－毛星云（浅墨）的专栏</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://blog.csdn.net/zhmxy555">
-					<dc:title>【C++游戏编程】游戏开发梦想的集散地—毛星云（浅墨）的专栏</dc:title>
-<<<<<<< HEAD
+					<dc:title>【C++游戏编程】微软全球最有价值专家—毛星云（浅墨）的专栏</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://blog.csdn.net/poem_qianmo/rss/list" />
 					</rdfs:seeAlso>
@@ -205,10 +201,6 @@
 					<dc:title>cnBeta.COM业界资讯</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://cnbeta.feedsportal.com/c/34306/f/624776/index.rss" />
-=======
-					<rdfs:seeAlso>
-						<rss:channel rdf:about="http://blog.csdn.net/poem_qianmo/rss/list" />
->>>>>>> b395c4eb5ac9837d6c0fc238ab3d8b51923c312e
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -270,10 +262,23 @@
 		<foaf:Agent>
 			<foaf:name>solidot.org</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.solidot.org">
+					<dc:title>Solidot</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.solidot.org/index.rss" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>tencent technology</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://tech.qq.com">
+					<dc:title>腾讯科技</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://n.rss.qq.com/rss/tech_rss.php" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -287,6 +292,19 @@
 					<dc:title>不许联想</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.wangxiaofeng.net/?feed=rss2" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>乌云公开漏洞</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://www.wooyun.org">
+					<dc:title>wooyun.org 最新公开漏洞</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://www.wooyun.org/feeds/public" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -387,7 +405,7 @@
 		<foaf:Agent>
 			<foaf:name>外刊IT评论</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="http://www.aqee.net">
+				<foaf:Document rdf:about="http://www.vaikan.com">
 					<dc:title>外刊IT评论</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://feed.feedsky.com/aqee-net" />
@@ -400,15 +418,36 @@
 		<foaf:Agent>
 			<foaf:name>安静的疯子_新浪博客</foaf:name>
 			<foaf:weblog>
-<<<<<<< HEAD
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
-=======
 				<foaf:Document rdf:about="http://blog.sina.com.cn/ljchen0429">
 					<dc:title>所谓伊人 在水一方</dc:title>
->>>>>>> b395c4eb5ac9837d6c0fc238ab3d8b51923c312e
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://blog.sina.com.cn/rss/1712416867.xml" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>廖雪峰的官方网站</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://www.liaoxuefeng.com/">
+					<dc:title>廖雪峰的官方网站</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://www.liaoxuefeng.com/feed" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>捣乱小子</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://daoluan.net/blog">
+					<dc:title>捣乱小子</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://daoluan.net/blog/feed/" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -431,10 +470,10 @@
 		<foaf:Agent>
 			<foaf:name>泰然</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="http://www.ityran.com">
+					<dc:title>泰然网</dc:title>
 					<rdfs:seeAlso>
-						<rss:channel rdf:about="http://article.ityran.com/feed" />
+						<rss:channel rdf:about="http://www.ityran.com/feed/" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -448,6 +487,19 @@
 					<dc:title>爱范儿 · Beats of Bits</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.ifanr.com/feed" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>知乎</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="http://www.zhihu.com">
+					<dc:title>知乎每日精选</dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="http://www.zhihu.com/rss" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -487,6 +539,19 @@
 					<dc:title>程序员小辉</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.xiaohui.com/rss/" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>素包子</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://baoz.net/feed/" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
@@ -536,9 +601,48 @@
 			<foaf:name>酷壳 - CoolShell.cn</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://coolshell.cn">
-					<dc:title>酷壳 - CoolShell.cn</dc:title>
+					<dc:title>酷 壳 - CoolShell.cn</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://coolshell.cn/feed" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>阅乎 — Pythonic Notes</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://yuehu.io/pythonic-notes/feed" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>阅乎 — 我们都是程序员</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://yuehu.io/be-a-programmer/feed" />
+					</rdfs:seeAlso>
+				</foaf:Document>
+			</foaf:weblog>
+		</foaf:Agent>
+	</foaf:member>
+	<foaf:member>
+		<foaf:Agent>
+			<foaf:name>阅乎 — 编辑推荐</foaf:name>
+			<foaf:weblog>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
+					<rdfs:seeAlso>
+						<rss:channel rdf:about="https://yuehu.io/editors-picks/feed" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
