@@ -19,24 +19,38 @@
 <TMPL_IF feedtype>
 <link rel="alternate" href="<TMPL_VAR feed ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">" type="application/<TMPL_VAR feedtype>+xml">
 </TMPL_IF>
+<script>
+function getNextElement(n) {
+	//元素节点的节点类型是 1，
+	//因此如果首个子节点不是一个元素节点，它就会移至下一个节点，
+	//然后继续检查此节点是否为元素节点。
+	//整个过程会一直持续到首个元素子节点被找到为止。
+	var x = n.nextSibling;
+	while(x.nodeType != 1) {
+		x = x.nextSibling;
+	}
+	return x;
+}
+function visible(node) {
+	var c = getNextElement(node);
+	if (node.value == "hide") {
+		c.style.display="none";
+		node.value="show";
+	}
+	else {
+		c.style.display="";
+		node.value="hide";
+	}
+}
+</script>
 </head>
 
 <body>
 <h1><TMPL_VAR name></h1>
 
 <TMPL_LOOP Items>
-<TMPL_IF new_date>
-<TMPL_UNLESS __FIRST__>
-### End <div class="channelgroup">
-</div>
-### End <div class="daygroup">
-</div>
-</TMPL_UNLESS>
-<div class="daygroup">
 <h2><TMPL_VAR new_date></h2>
-</TMPL_IF>
 
-### End <div class="channelgroup">
 <div class="channelgroup">
 
 ### Planet provides template variables for *all* configuration options for
@@ -48,13 +62,14 @@
 <TMPL_IF title>
 <h4<TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_VAR title></a></h4>
 </TMPL_IF>
-<TMPL_IF channel_face>
-<img class="face" src="images/<TMPL_VAR channel_face ESCAPE="HTML">" width="<TMPL_VAR channel_facewidth ESCAPE="HTML">" height="<TMPL_VAR channel_faceheight ESCAPE="HTML">" alt="">
-</TMPL_IF>
+<input type="button" onclick="visible(this);" value="show" />
+<div class="entry" style="display:none">
 <TMPL_IF channel_name>
 <a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name></a>
 </TMPL_IF>
-
+<TMPL_IF channel_face>
+<img class="face" src="images/<TMPL_VAR channel_face ESCAPE="HTML">" width="<TMPL_VAR channel_facewidth ESCAPE="HTML">" height="<TMPL_VAR channel_faceheight ESCAPE="HTML">" alt="">
+</TMPL_IF>
 <div class="content"<TMPL_IF content_language> lang="<TMPL_VAR content_language>"</TMPL_IF>>
 <TMPL_VAR content>
 </div>
@@ -69,11 +84,11 @@
 <a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_IF author>by <TMPL_VAR author> at </TMPL_IF><TMPL_VAR date><TMPL_IF category> under <TMPL_VAR category></TMPL_IF></a>
 </p>
 </div>
+</div>
+</div>
 
 <TMPL_IF __LAST__>
 ### End <div class="channelgroup">
-</div>
-### End <div class="daygroup">
 </div>
 </TMPL_IF>
 </TMPL_LOOP>
