@@ -9,7 +9,7 @@
 <foaf:Group>
 	<foaf:name>CodePongo RSS Reader</foaf:name>
 	<foaf:homepage>rss</foaf:homepage>
-	<rdfs:seeAlso rdf:resource="rss\foafroll.xml" />
+	<rdfs:seeAlso rdf:resource="rss/foafroll.xml" />
 
 	<foaf:member>
 		<foaf:Agent>
@@ -104,19 +104,6 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
-			<foaf:name>Just lepture</foaf:name>
-			<foaf:weblog>
-				<foaf:Document rdf:about="http://lepture.com/">
-					<dc:title>Just lepture</dc:title>
-					<rdfs:seeAlso>
-						<rss:channel rdf:about="http://feeds.lepture.com/lepture" />
-					</rdfs:seeAlso>
-				</foaf:Document>
-			</foaf:weblog>
-		</foaf:Agent>
-	</foaf:member>
-	<foaf:member>
-		<foaf:Agent>
 			<foaf:name>Planet of Woodpecker.org.cn for CPUG</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://woodpecker.org.cn/planet/default">
@@ -132,8 +119,8 @@
 		<foaf:Agent>
 			<foaf:name>Python News</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="http://www.python.org/">
-					<dc:title>Python News</dc:title>
+				<foaf:Document rdf:about="">
+					<dc:title></dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.python.org/channews.rdf" />
 					</rdfs:seeAlso>
@@ -236,8 +223,8 @@
 		<foaf:Agent>
 			<foaf:name>python-cn（华蟒用户组 CPyUG)</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="https://groups.google.com/d/forum/python-cn">
+					<dc:title>python-cn(华蟒用户组,CPyUG 邮件列表)</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="https://groups.google.com/forum/feed/python-cn/msgs/rss.xml?num=15" />
 					</rdfs:seeAlso>
@@ -249,8 +236,8 @@
 		<foaf:Agent>
 			<foaf:name>python-cn（华蟒用户组 CPyUG)</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
+				<foaf:Document rdf:about="https://groups.google.com/d/forum/python-cn">
+					<dc:title>python-cn(华蟒用户组,CPyUG 邮件列表)</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="https://groups.google.com/forum/feed/python-cn/topics/rss.xml?num=15" />
 					</rdfs:seeAlso>
@@ -366,7 +353,7 @@
 		<foaf:Agent>
 			<foaf:name>博客园_李新杰的博客园</foaf:name>
 			<foaf:weblog>
-				<foaf:Document rdf:about="http://www.cnblogs.com/lixinjie/">
+				<foaf:Document rdf:about="">
 					<dc:title>博客园_李新杰的博客园</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.cnblogs.com/lixinjie/rss" />
@@ -468,19 +455,6 @@
 	</foaf:member>
 	<foaf:member>
 		<foaf:Agent>
-			<foaf:name>泰然</foaf:name>
-			<foaf:weblog>
-				<foaf:Document rdf:about="http://www.ityran.com">
-					<dc:title>泰然网</dc:title>
-					<rdfs:seeAlso>
-						<rss:channel rdf:about="http://www.ityran.com/feed/" />
-					</rdfs:seeAlso>
-				</foaf:Document>
-			</foaf:weblog>
-		</foaf:Agent>
-	</foaf:member>
-	<foaf:member>
-		<foaf:Agent>
 			<foaf:name>爱范儿＊Beats of Bits</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://www.ifanr.com?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=">
@@ -510,7 +484,7 @@
 			<foaf:name>程序即人生</foaf:name>
 			<foaf:weblog>
 				<foaf:Document rdf:about="http://www.jtianling.com">
-					<dc:title>程序即人生</dc:title>
+					<dc:title>九天雁翎的博客</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://www.jtianling.com/feed" />
 					</rdfs:seeAlso>
@@ -604,45 +578,6 @@
 					<dc:title>酷 壳 - CoolShell.cn</dc:title>
 					<rdfs:seeAlso>
 						<rss:channel rdf:about="http://coolshell.cn/feed" />
-					</rdfs:seeAlso>
-				</foaf:Document>
-			</foaf:weblog>
-		</foaf:Agent>
-	</foaf:member>
-	<foaf:member>
-		<foaf:Agent>
-			<foaf:name>阅乎 — Pythonic Notes</foaf:name>
-			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
-					<rdfs:seeAlso>
-						<rss:channel rdf:about="https://yuehu.io/pythonic-notes/feed" />
-					</rdfs:seeAlso>
-				</foaf:Document>
-			</foaf:weblog>
-		</foaf:Agent>
-	</foaf:member>
-	<foaf:member>
-		<foaf:Agent>
-			<foaf:name>阅乎 — 我们都是程序员</foaf:name>
-			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
-					<rdfs:seeAlso>
-						<rss:channel rdf:about="https://yuehu.io/be-a-programmer/feed" />
-					</rdfs:seeAlso>
-				</foaf:Document>
-			</foaf:weblog>
-		</foaf:Agent>
-	</foaf:member>
-	<foaf:member>
-		<foaf:Agent>
-			<foaf:name>阅乎 — 编辑推荐</foaf:name>
-			<foaf:weblog>
-				<foaf:Document rdf:about="">
-					<dc:title></dc:title>
-					<rdfs:seeAlso>
-						<rss:channel rdf:about="https://yuehu.io/editors-picks/feed" />
 					</rdfs:seeAlso>
 				</foaf:Document>
 			</foaf:weblog>
