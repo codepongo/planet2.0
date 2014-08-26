@@ -45,7 +45,7 @@ function visible(node) {
 <style>
 body {
 font-family: "Trebuchet MS",Verdana, Helvetica, Arial, sans-serif;
-font-size: 10pt;
+font-size: 20pt;
 padding:0;
 margin:0;
 }
@@ -74,7 +74,7 @@ margin:auto;
 <TMPL_IF title>
 <h4<TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_VAR title></a></h4>
 </TMPL_IF>
-<input style="width:100%;heigh:100%;" type="button" onclick="visible(this);" value="show" />
+<input style="border-style: solid;border-width:1px;background:white;width:80%;font-size:20pt;" type="button" onclick="visible(this);" value="show">
 <div class="entry" style="display:none">
 <TMPL_IF channel_name>
 <a href="<TMPL_VAR channel_link ESCAPE="HTML">" title="<TMPL_VAR channel_title_plain ESCAPE="HTML">"><TMPL_VAR channel_name></a>
