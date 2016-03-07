@@ -32,7 +32,7 @@ __all__ = ("cache", "feedparser", "htmltmpl", "logging",
 import os
 import md5
 import time
-import dbhash
+import _dbhash as dbhash
 import re
 
 try: 
