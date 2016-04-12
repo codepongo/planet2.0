@@ -1,4 +1,7 @@
-import dbm
+try:
+    import dbm
+except:
+    import dbhash as dbm
 class _dbm(object):
     def __init__(self, dbm):
         self.dbm = dbm
